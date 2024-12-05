@@ -17,29 +17,29 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    title: "E-Commerce Dashboard Pro",
-    description: "Template admin dashboard modern dengan fitur lengkap",
-    price: 799000,
+    title: "Online Course",
+    description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
+    price: 450000,
     category: "website",
-    image: "/products/ecommerce.jpg",
+    image: "source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   {
     id: 2,
-    title: "E-Commerce Dashboard Pro",
-    description: "Template admin dashboard modern dengan fitur lengkap",
-    price: 799000,
+    title: "Online Course",
+    description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
+    price: 450000,
     category: "website",
-    image: "/products/ecommerce.jpg",
+    image: "source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   {
     id: 3,
-    title: "E-Commerce Dashboard Pro",
-    description: "Template admin dashboard modern dengan fitur lengkap",
-    price: 799000,
+    title: "Online Course",
+    description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
+    price: 450000,
     category: "website",
-    image: "/products/ecommerce.jpg",
+    image: "source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   // Add more products...
