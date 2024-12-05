@@ -138,6 +138,7 @@ const ContactSection = () => {
 
   return (
     <section
+    id="contact"
       ref={sectionRef}
       className="min-h-screen bg-[#0D0C22] py-20 relative overflow-hidden"
     >

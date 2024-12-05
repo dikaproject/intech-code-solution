@@ -14,7 +14,8 @@ const HeroSection = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
   return (
-    <div
+    <section id="home">
+         <div
       ref={containerRef}
       className="min-h-screen relative overflow-hidden bg-[#0D0C22] pt-24"
     >
@@ -189,6 +190,8 @@ const HeroSection = () => {
         </div>
       </motion.div>
     </div>
+    </section>
+   
   );
 };
 

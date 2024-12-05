@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar"
 import ProductSection from "@/components/ProductSection"
 import JasaSection from "@/components/JasaSection"
 import ContactSection from "@/components/ContactSection"
+import FooterSection from "@/components/FooterSection"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ProductSection />
       <JasaSection />
       <ContactSection />
+      <FooterSection />
     </main>
   )
 }
