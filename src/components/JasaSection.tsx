@@ -196,8 +196,7 @@ const JasaSection = () => {
             Solusi digital untuk kebutuhan project Anda
           </p>
           <p className="text-gray-400 mb-12">
-            Khusus untuk tugas proyek tingkat SMK kebawah mendapatkan harga yang
-            tidak terlalu mahal, lengkap beserta dokumentasinya
+            Kami menyediakan berbagai layanan pembuatan website, aplikasi mobile, desktop, hingga desain UI/UX yang dapat disesuaikan dengan kebutuhan bisnis Anda.
           </p>
         </motion.div>
 
@@ -253,13 +252,16 @@ const JasaSection = () => {
               </div>
 
               {/* Button at the bottom */}
-              <motion.button
+              <motion.a
+                href={`https://wa.me/6285962826017?text=Halo, saya tertarik dengan jasa ${service.title}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-400 text-white font-medium hover:shadow-lg transition-all duration-300 mt-auto" // Added mt-auto
+                className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-400 text-white font-medium hover:shadow-lg transition-all duration-300 mt-auto text-center cursor-pointer block"
               >
                 Konsultasi Gratis
-              </motion.button>
+              </motion.a>
             </motion.div>
           ))}
         </div>

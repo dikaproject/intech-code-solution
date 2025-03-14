@@ -77,7 +77,7 @@ const HeroSection = () => {
               Solusi Digital Terpercaya
               </span>
               <br />
-              <span className="text-white">Untuk Tugas dan Project</span>
+              <span className="text-white">Untuk Bisnismu</span>
             </motion.h1>
 
             <motion.p
@@ -87,7 +87,7 @@ const HeroSection = () => {
               className="text-gray-400 text-xl max-w-2xl"
             >
               Jasa pembuatan website & aplikasi profesional dengan source code premium siap pakai.
-              Solusi lengkap untuk kebutuhan digital bisnis atau menyelasaikan tugas.
+              Solusi lengkap untuk kebutuhan digital bisnis atau menyelasaikan projectmu.
             </motion.p>
 
             <motion.div
@@ -96,22 +96,28 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="flex gap-6"
             >
-              <motion.button
+              <motion.a
+                href="https://wa.me/6285962826017?text=Halo,%20saya%20tertarik%20dengan%20Source%20Code%20Siap%20Pakai"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full text-white font-semibold relative overflow-hidden group"
+                className="px-8 py-4 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full text-white font-semibold relative overflow-hidden group cursor-pointer"
               >
                 <span className="relative z-10">Source Code Siap Pakai</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </motion.button>
-              <motion.button
+              </motion.a>
+              <motion.a
+                href="https://wa.me/6285962826017?text=Halo,%20saya%20tertarik%20dengan%20Jasa%20Website"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 border border-purple-500 rounded-full text-white font-semibold relative overflow-hidden group"
+                className="px-8 py-4 border border-purple-500 rounded-full text-white font-semibold relative overflow-hidden group cursor-pointer"
               >
-                <span className="relative z-10">Jasa Coding</span>
+                <span className="relative z-10">Jasa Website</span>
                 <div className="absolute inset-0 bg-purple-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
-              </motion.button>
+              </motion.a>
             </motion.div>
           </div>
 

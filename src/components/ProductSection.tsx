@@ -21,7 +21,7 @@ const products: Product[] = [
     description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
     price: 450000,
     category: "website",
-    image: "source-code-1.png",
+    image: "/source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   {
@@ -30,7 +30,7 @@ const products: Product[] = [
     description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
     price: 450000,
     category: "website",
-    image: "source-code-1.png",
+    image: "/source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   {
@@ -39,7 +39,7 @@ const products: Product[] = [
     description: "Website untuk kursus online dengan fitur lengkap serta payment gateway",
     price: 450000,
     category: "website",
-    image: "source-code-1.png",
+    image: "/source-code-1.png",
     tech: ["React", "Next.js", "Tailwind"]
   },
   // Add more products...
