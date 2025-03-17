@@ -8,7 +8,7 @@ const services = [
     id: 1,
     title: "Website Development",
     description: "Jasa pembuatan website profesional dengan teknologi modern",
-    priceRange: "100.000 - 2.000.000",
+    priceRange: "100.000",
     icon: "🌐",
     features: [
       "Responsive Design",
@@ -23,7 +23,7 @@ const services = [
     id: 2,
     title: "Mobile App Development",
     description: "Pengembangan aplikasi mobile Android & iOS",
-    priceRange: "150.000 - 3.500.000",
+    priceRange: "150.000",
     icon: "📱",
     features: [
       "Native Performance",
@@ -38,7 +38,7 @@ const services = [
     id: 3,
     title: "Error Fix & Debug",
     description: "Perbaikan bug dan error pada project anda",
-    priceRange: "30.000 - 500.000",
+    priceRange: "30.000",
     icon: "🛠️",
     features: [
       "Quick Response",
@@ -53,7 +53,7 @@ const services = [
     id: 4,
     title: "Desktop App Development",
     description: "Pengembangan aplikasi desktop untuk Windows & macOS",
-    priceRange: "200.000 - 4.000.000",
+    priceRange: "200.000",
     icon: "💻",
     features: [
       "Quick Response",
@@ -68,7 +68,7 @@ const services = [
     id: 5,
     title: "UI/UX Design",
     description: "Desain modern dan responsif untuk website & aplikasi",
-    priceRange: "50.000 - 1.000.000",
+    priceRange: "50.000",
     icon: "🎨",
     features: [
       "Wireframing",
@@ -83,7 +83,7 @@ const services = [
     id: 6,
     title: "Landing Page",
     description: "Halaman website yang dioptimalkan untuk konversi",
-    priceRange: "50.000 - 1.000.000",
+    priceRange: "50.000",
     icon: "📄",
     features: [
       "SEO Friendly",
